@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,rag,a[100];
+clrscr();
+printf(" Enter the Range:");
+scanf("%d",&rag);
+for(i=0;i<=rag;i++)
+{
+printf(" Enter the elements:");
+scanf("%d",&a[i]);
+}
+printf(" output Elements");
+for(i=o;i<rag;i++)
+{
+printf(" %d\n",a[i]);
+}
+getch();
+}
